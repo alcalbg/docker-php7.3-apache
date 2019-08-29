@@ -20,6 +20,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt update && apt upgrade -y && apt install -
     php7.3 \
     php7.3-bcmath \
     php7.3-mbstring \
+    php7.3-gd \
     php7.3-mysql \
     php7.3-sqlite3 \
     php7.3-soap \
