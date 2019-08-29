@@ -19,6 +19,7 @@ RUN echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt
 RUN DEBIAN_FRONTEND=noninteractive apt update && apt upgrade -y && apt install -y \
     php7.3 \
     php7.3-bcmath \
+    php7.3-curl \
     php7.3-mbstring \
     php7.3-gd \
     php7.3-mysql \

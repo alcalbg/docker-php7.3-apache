@@ -3,6 +3,7 @@ Docker image with old php 7.3 running on apache2 with usual php extensions:
 
 - php7.3
 - php7.3-bcmath
+- php7.3-curl
 - php7.3-gd
 - php7.3-mbstring
 - php7.3-mysql
